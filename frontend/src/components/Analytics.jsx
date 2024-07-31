@@ -45,9 +45,9 @@ const Analytics = ({quizId, quizType, setAnalytics, setDashboard, getLink, setGe
   const handleShareQuiz = (id, type) => {
     let link;
     if (type === "Q&A") {
-      link = `https://aamish-hussain-quizzie-app.netlify.app/playQuiz/${id}`;
+      link = `https://aamish-brightchamps-assignment.netlify.app/playQuiz/${id}`;
     } else if (type === "Poll") {
-      link = `https://aamish-hussain-quizzie-app.netlify.app/Poll/${id}`;
+      link = `https://aamish-brightchamps-assignment.netlify.app/Poll/${id}`;
     } else {
       link = "";
     }

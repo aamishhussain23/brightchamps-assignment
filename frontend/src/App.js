@@ -7,8 +7,8 @@ import Result from './components/Result';
 import Playquiz from './components/Playquiz';
 import Pollresult from './components/Pollresult';
 
-export const userServer = "https://aamish-hussain-quizzie.onrender.com/api/v1/user"
-export const quizServer = "https://aamish-hussain-quizzie.onrender.com/api/v1/quiz"
+export const userServer = "https://brightchamps-assignment.onrender.com/api/v1/user"
+export const quizServer = "https://brightchamps-assignment.onrender.com/api/v1/quiz"
 
 function App() {
   return (

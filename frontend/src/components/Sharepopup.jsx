@@ -23,9 +23,9 @@ const Sharepopup = ({quizId, quizType, setAnalytics, setGetLink}) => {
 
   let link;
   if (quizType === "Q&A") {
-    link = `https://aamish-hussain-quizzie-app.netlify.app/playQuiz/${quizId}`;
+    link = `https://aamish-brightchamps-assignment.netlify.app/playQuiz/${quizId}`;
   } else if (quizType === "Poll") {
-    link = `https://aamish-hussain-quizzie-app.netlify.app/Poll/${quizId}`;
+    link = `https://aamish-brightchamps-assignment.netlify.app/Poll/${quizId}`;
   } else {
     link = "No link is available";
   }
